@@ -1,7 +1,7 @@
 [![babatunday](https://circleci.com/gh/babatunday/ml_microservicesproject.svg?style=svg)](https://app.circleci.com/pipelines/github/babatunday/ml_microservicesproject)
 
-Project Overview
-The Operationalize ML project contains a Machine Learning Microservice, built on Scikit-Learn. It contains a model that predicts house prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios, and so on. The goal of the project is to operationalize this working, machine learning microservice using kubernetes, which is an open-source system for automating the management of containerized applications.
+**Project Overview**
+Project Summary A Scikit-Learn-based Machine Learning Microservice is part of the Operationalize ML project. It includes a model that forecasts Boston home values based on a number of characteristics, including the typical number of rooms in a home and information on highway accessibility, teacher-to-student ratios, and other factors. The project's objective is to use kubernetes, an open-source technology for automating the management of containerized applications, to operationalize this functional machine learning microservice.
 
 What does this project do?
 Run a docker container
@@ -46,7 +46,7 @@ python3 -m venv ~/.devops
 source ~/.devops/bin/activate
 
 This will create a virtual environment in your home directory called .devops
-Install dependencies by running make install
+Install dependencies by running: make install
 
 (Optionally) Lint application (requires hadolint)
 
